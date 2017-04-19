@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/ChrisWren/grunt-node-inspector#readme"
-
-    >grunt-node-inspector (v0.4.2)</a>
+    <a href="https://github.com/ChrisWren/grunt-node-inspector#readme">grunt-node-inspector (v0.4.2)</a>
 </h1>
 <h4>Run node-inspector with the rest of your workflow to debug node.js</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.grunt-node-inspector">module grunt-node-inspector</a><ol>
 
@@ -86,27 +79,27 @@
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">grunt-node-inspector = function (grunt) {
-  &#x27;use strict&#x27;;
-  var util = require(&#x27;util&#x27;);
+  'use strict';
+  var util = require('util');
 
-  grunt.registerMultiTask(&#x27;node-inspector&#x27;, &#x27;Runs node-inspector to debug your node.js JavaScripts&#x27;, function () {
+  grunt.registerMultiTask('node-inspector', 'Runs node-inspector to debug your node.js JavaScripts', function () {
     var options = this.options();
     var done = this.async();
-    var args = [require.resolve(&#x27;node-inspector/bin/inspector&#x27;)];
+    var args = [require.resolve('node-inspector/bin/inspector')];
     var pushArg = function(option, val) {
-      args.push(&#x27;--&#x27; + option);
+      args.push('--' + option);
       args.push(val);
     };
     [
-      &#x27;debug-port&#x27;,
-      &#x27;web-host&#x27;,
-      &#x27;web-port&#x27;,
-      &#x27;save-live-edit&#x27;,
-      &#x27;preload&#x27;,
-      &#x27;hidden&#x27;,
-      &#x27;stack-trace-limit&#x27;,
-      &#x27;ssl-key&#x27;,
-      &#x27;ssl-cert&#x27;
+      'debug-port',
+      'web-host',
+      'web-port',
+      'save-live-edit',
+      'preload',
+      'hidden',
+      'stack-trace-limit',
+      'ssl-key',
+      'ssl-cert'
     ].forEach(function (option) {
       if(option in options) {
         if(util.isArray(options[option])) {
@@ -120,10 +113,10 @@
     });
 
     grunt.util.spawn({
-      cmd: &#x27;node&#x27;,
+      cmd: 'node',
       args: args,
       opts: {
-        stdio: &#x27;inherit&#x27;
+        stdio: 'inherit'
       }
     },
     function (error) {
@@ -146,3 +139,4 @@
     ]
 </div>
 </div>
+</body></html>
