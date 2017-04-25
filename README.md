@@ -1,6 +1,6 @@
 # npmdoc-grunt-node-inspector
 
-#### api documentation for  [grunt-node-inspector (v0.4.2)](https://github.com/ChrisWren/grunt-node-inspector#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-node-inspector.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-node-inspector) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-node-inspector.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-node-inspector)
+#### basic api documentation for  [grunt-node-inspector (v0.4.2)](https://github.com/ChrisWren/grunt-node-inspector#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-node-inspector.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-node-inspector) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-node-inspector.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-node-inspector)
 
 #### Run node-inspector with the rest of your workflow to debug node.js
 
@@ -72,7 +72,8 @@
     "scripts": {
         "test": "grunt test"
     },
-    "version": "0.4.2"
+    "version": "0.4.2",
+    "bin": {}
 }
 ```
 

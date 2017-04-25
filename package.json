@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "grunt-node-inspector",
-    "description": "#### api documentation for  [grunt-node-inspector (v0.4.2)](https://github.com/ChrisWren/grunt-node-inspector#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-node-inspector.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-node-inspector) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-node-inspector.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-node-inspector)",
+    "description": "#### basic api documentation for  [grunt-node-inspector (v0.4.2)](https://github.com/ChrisWren/grunt-node-inspector#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-grunt-node-inspector.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-grunt-node-inspector) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-grunt-node-inspector.svg)](https://travis-ci.org/npmdoc/node-npmdoc-grunt-node-inspector)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "grunt-node-inspector": "*",
